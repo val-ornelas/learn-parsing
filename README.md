@@ -10,3 +10,4 @@ LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW
  / is division so it will return the qotent of two numbers 
  and ^ is for powers so it will return with what x to the power of y is 
   you can use multiple functions within the line (ie 2 + 4 *3^5) and it will follow pemdas 
+by typing in "VAR" then a letter or word  then "=" and a number you can create a variable that can be used in later calculations what is a tcp program 
