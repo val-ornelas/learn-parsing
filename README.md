@@ -13,7 +13,16 @@ LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW
 "/" is division so it will return the qotent of two numbers 
  
  "^" is for powers so it will return with what x to the power of y is 
- 
+
+"=="checks to see if two numbers are equal(1= true 0=false)
+"!="checks to see if two numbers are notequal(1= true 0=false)basic
+"<"checks to see if one number is less than another (1= true 0=false)
+">"checks to see if one number is greater than another (1= true 0=false)
+"<="checks to see if one number is less or equal to  than another (1= true 0=false)
+">="checks to see if one number is greater or equal to  than another (1= true 0=false)
 you can use multiple functions within the line (ie 2 + 4 *3^5) and it will follow P.E.M.D.A.S 
 
 by typing in "VAR" then a letter or word  then "=" and a number you can create a variable that can be used in later calculations
+"AND" allows for and operations to be done
+"OR allows for or operations to be done 
+
