@@ -26,3 +26,4 @@ by typing in "VAR" then a letter or word  then "=" and a number you can create a
 "AND" allows for and operations to be done
 "OR allows for or operations to be done 
 
+this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
