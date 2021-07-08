@@ -25,5 +25,12 @@ you can use multiple functions within the line (ie 2 + 4 *3^5) and it will follo
 by typing in "VAR" then a letter or word  then "=" and a number you can create a variable that can be used in later calculations
 "AND" allows for and operations to be done
 "OR allows for or operations to be done 
+"IF" allows for an if statement 
+"ELIF" acts as another "IF" 
+"Then" is required after an "IF" or an "ELIF" to create a second condition 
+"ELSE" can be added at the end of a final line so that it will still return soemthing if no previous "IF" or "ELIF" statemens return true you do NOT need to add "THEN" after an "Else"
+"FOR" acts simialr to how it does in basic,to do it you type "FOR variable name  = starting value TO ending value THEN result 
+"WHILE" used as "WHILE" condition THEN result
+ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT 
 
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
