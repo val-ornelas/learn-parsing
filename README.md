@@ -32,5 +32,7 @@ by typing in "VAR" then a letter or word  then "=" and a number you can create a
 "FOR" acts simialr to how it does in basic,to do it you type "FOR variable name  = starting value TO ending value THEN result 
 "WHILE" used as "WHILE" condition THEN result
 ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT 
+"FUN" lets the user call a function, to use it you have to type in FUN <function name> (ammount of inputs the user has to enter) -> <result of function>
+ to call on the function you have to calll <function name>(your inputs)
 
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
