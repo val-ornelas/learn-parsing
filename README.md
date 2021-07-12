@@ -44,4 +44,13 @@ ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT
  to append to the list first you type the list name then + then the number you want to add to the list 
  / allows you to pull the number located at a specfic index 
  * concatonates lists
+ 
+ PRINT() prints a string 
+ PRINT_INT() prints an intiger 
+ IS_NUM//STR/FUN/LIST checks to see ifsomething is a function or list (etc)
+ APPEND appends to a list 
+ POP takes from a list 
+ EXTEND concatonates two lists 
+ MATH_PI prints digits of pi 
+ 
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
