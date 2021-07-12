@@ -22,6 +22,13 @@ LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW
 ">="checks to see if one number is greater or equal to  than another (1= true 0=false)
 you can use multiple functions within the line (ie 2 + 4 *3^5) and it will follow P.E.M.D.A.S 
 
+you can add a string by uskng double quotes ie "hello world"
+you can add strings together ie "hello" + " world" 
+result  hello world
+
+you can multiply strings ie "hi " * 3 
+result hi hi hi 
+
 by typing in "VAR" then a letter or word  then "=" and a number you can create a variable that can be used in later calculations
 "AND" allows for and operations to be done
 "OR allows for or operations to be done 
