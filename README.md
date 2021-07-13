@@ -61,6 +61,6 @@ ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT
  LEN() returns the length of a list 
  __________________________________________________________________________________________________________________________________________________________________
  to use muti line statements end one line with ';' 
-to run a file you have to make the file first the run python3 shell.py  when it returns "basic < " type in "RUN("<file name>")
+to run a file you have to make the file first the run python3 shell.py  when it returns "basic < " type in "RUN(" file name")
  
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
