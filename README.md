@@ -13,6 +13,8 @@ LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW
 "/" is division so it will return the qotent of two numbers 
  
  "^" is for powers so it will return with what x to the power of y is 
+ 
+ "#" makes a comment it works like it does in python
 
 "=="checks to see if two numbers are equal(1= true 0=false)
 "!="checks to see if two numbers are notequal(1= true 0=false)basic
@@ -47,10 +49,17 @@ ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT
  
  PRINT() prints a string 
  PRINT_INT() prints an intiger 
- IS_NUM//STR/FUN/LIST checks to see ifsomething is a function or list (etc)
- APPEND appends to a list 
- POP takes from a list 
- EXTEND concatonates two lists 
+ IS_NUM//STR/FUN/LIST() checks to see ifsomething is a function or list (etc)
+ APPEND() appends to a list 
+ POP ()takes from a list 
+ EXTEND() concatonates two lists 
  MATH_PI prints digits of pi 
+ RETURN returns a what you tell it to 
+ CONTINUE in a loop use continue to skip a specfic number (ie if i == 4  CONTINUE) 
+ BREAK stops a loop (ie if i == 8 Break)
+ RUN() lets you run a file name 
+ LEN() returns the length of a list 
+ __________________________________________________________________________________________________________________________________________________________________
+ to use muti line statements end one line with ';' this will leave you on the same line currently but it will act as if it is a new line (example 1+2;3+4 returns 3, 7)
  
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
