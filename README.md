@@ -60,6 +60,7 @@ ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT
  RUN() lets you run a file name 
  LEN() returns the length of a list 
  __________________________________________________________________________________________________________________________________________________________________
- to use muti line statements end one line with ';' this will leave you on the same line currently but it will act as if it is a new line (example 1+2;3+4 returns 3, 7)
+ to use muti line statements end one line with ';' 
+
  
 this current state of code is mostly following the youtube tutoril By CODE Pulse That you can find at https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD whos in trun was inspired on https://ruslanspivak.com/lsbasi-part1/later in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
