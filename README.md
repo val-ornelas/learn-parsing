@@ -31,20 +31,32 @@ result  hello world
 you can multiply strings ie "hi " * 3 
 result hi hi hi 
 by typing in "VAR" then a letter or word  then "=" and a number you can create a variable that can be used in later calculations
+
 "AND" allows for and operations to be done
+
 "OR allows for or operations to be done 
+
 "IF" allows for an if statement 
+
 "ELIF" acts as another "IF" 
+
 "Then" is required after an "IF" or an "ELIF" to create a second condition 
+
 "ELSE" can be added at the end of a final line so that it will still return soemthing if no previous "IF" or "ELIF" statemens return true you do NOT need to add "THEN" after an "Else"
+
 "FOR" acts simialr to how it does in basic,to do it you type "FOR variable name  = starting value TO ending value THEN result 
 "WHILE" used as "WHILE" condition THEN result
+
 ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT 
+
 "FUN" lets the user call a function, to use it you have to type in FUN <function name> (ammount of inputs the user has to enter) -> <result of function>
  to call on the function you have to calll <function name>(your inputs)
-[ ] makses a list in order to add things  into the list you have to typoe in the numbers followed by a comma 
+
+ [ ] makses a list in order to add things  into the list you have to typoe in the numbers followed by a comma 
  to append to the list first you type the list name then + then the number you want to add to the list 
+ 
  / allows you to pull the number located at a specfic index 
+ 
  * concatonates lists
  
  PRINT() prints a string 
