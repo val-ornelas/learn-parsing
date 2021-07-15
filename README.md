@@ -1,3 +1,9 @@
+# The Theory and Development of Programing Languages 
+## Description 
+this code was written by Valentin Ornelas for the [Institute for Computing in Research Internship](https://computinginresearch.org/) and was largely inspired off a tutorial by the youtuber CODE PULSE who is linked below. This project is a programing language that follows the list of commands below.
+
+
+## How to Run This Program 
 the easiest way to run this program is as follows 
 1 download the listed  files basic.py, shell.py, strings_with_arrows.py
 2 open up a terminal and run shell.py (python3 shell.py)
@@ -58,7 +64,7 @@ by typing in  **VAR** then a letter or word  then **=** and a charcter you can c
 
 - **WHILE** used as **WHILE** condition **THEN** result
 
-**ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT 
+ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT 
 
 - **FUN**  lets the user call a function, to use it you have to type in FUN <function name> (ammount of inputs the user has to enter) -> <result of function>
  to call on the function you have to calll <function name>(your inputs)
@@ -66,35 +72,33 @@ by typing in  **VAR** then a letter or word  then **=** and a charcter you can c
  **[ ]**  makses a list in order to add things  into the list you have to typoe in the numbers followed by a comma 
  to append to the list first you type the list name then + then the number you want to add to the list 
  
- / allows you to pull the number located at a specfic index 
+ __/__ allows you to pull the number located at a specfic index 
  
- * concatonates lists
+ **PRINT()** prints a string 
  
- PRINT() prints a string 
+ **PRINT_INT()** prints an intiger 
  
- PRINT_INT() prints an intiger 
+ **IS_NUM/STR/FUN/LIST()** checks to see ifsomething is a function or list (etc depending on what you put after the underscore )
  
- IS_NUM//STR/FUN/LIST() checks to see ifsomething is a function or list (etc)
+ **APPEND()** appends to a list 
  
- APPEND() appends to a list 
+ **POP()** takes from a list 
  
- POP ()takes from a list 
+ **EXTEND()** concatonates two lists 
  
- EXTEND() concatonates two lists 
+ **MATH_PI** prints digits of pi 
  
- MATH_PI prints digits of pi 
+ **RETURN** returns a what you tell it to 
  
- RETURN returns a what you tell it to 
+ **CONTINUE** in a loop use continue to skip a specfic number (ie if i == 4  CONTINUE) 
  
- CONTINUE in a loop use continue to skip a specfic number (ie if i == 4  CONTINUE) 
+ **BREAK** stops a loop (ie if i == 8 Break)
  
- BREAK stops a loop (ie if i == 8 Break)
+ **RUN()** lets you run a file name 
  
- RUN() lets you run a file name 
- 
- LEN() returns the length of a list
+ **LEN()** returns the length of a list
  __________________________________________________________________________________________________________________________________________________________________
- to use muti line statements end one line with ';' 
-to run a file you have to make the file first the run python3 shell.py  when it returns **basic < **type in **RUN(**file name**)
+ to use muti line statements end one line with **;** 
+to run a file you have to make the file first the run python3 shell.py  when it returns "basic<" type in **RUN** (**file name**)
  
-this current state of code is mostly following the youtube tutoril By [CODE Pulse](https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD)  who in turn was loosley inspired by an online course that is no longer availibl in  later renditions  i aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
+this current state of code is mostly following the youtube tutoril By [CODE Pulse](https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD)  who in turn was loosley inspired by an online course that is no longer availibl in  later renditions  I aim to have my own code that allow any user to create and sort, search trough their own lists without having to write special algorithims as well as allow the user to do the same calculations with lists as they can with normal numbers/variables 
