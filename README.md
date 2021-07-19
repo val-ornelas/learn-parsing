@@ -5,10 +5,21 @@ this code was written by Valentin Ornelas for the [Institute for Computing in Re
 
 ## How to Run This Program 
 the easiest way to run this program is as follows 
-1 download the listed  files basic.py, shell.py, strings_with_arrows.py
-2 open up a terminal and run shell.py (python3 shell.py)
+-1 download the listed  files basic.py, shell.py, strings_with_arrows.py
+-2 open up a terminal and run shell.py (python3 shell.py)
 3 when it says "basic >"you can input what you want the code to do 
 ________________________________________________________________________________________________________________________
+ 
+ 
+ 
+ ## How to Run "test.val"  
+  in order to run test.val or any other file that you have written in val speak you first must run the command above 
+  when the program responds with `basic >`
+ you want to input 
+ `RUN("test.val")`
+ be sure to use capitlizatuion, parenthesis, and quotation marks when running a program or it will not work 
+ 
+ 
  ## LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW 
 
 **+** is  addition so if you type in x + y sum of those two numbers 
