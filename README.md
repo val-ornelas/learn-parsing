@@ -17,7 +17,7 @@ ________________________________________________________________________________
   when the program responds with `basic >`
  you want to input 
  `RUN("test.val")`
- be sure to use capitlizatuion, parenthesis, and quotation marks when running a program or it will not work 
+ be sure to use capitilization, parenthesis, and quotation marks when running a program or it will not work 
  
  
  ## LIST OF  CURRENT COMMANDS THE PROGRAM CAN FOLLOW 
