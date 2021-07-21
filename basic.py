@@ -7,6 +7,9 @@ from strings_with_arrows import *
 import string
 import os
 import math
+import subprocess
+import requests
+import re
 
 #######################################
 # CONSTANTS
@@ -141,6 +144,8 @@ KEYWORDS = [
   'RETURN',
   'CONTINUE',
   'BREAK',
+  'RICK',
+  'BEE',
 ]
 
 class Token:
@@ -815,6 +820,21 @@ class Parser:
       if res.error: return res
       return res.success(for_expr)
 
+    elif tok.matches(TT_KEYWORD, 'RICK'):
+      url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1&mute=1'
+      subprocess.Popen(['brave',url])
+      if res.error: return res
+
+    elif tok. matches(TT_KEYWORD, 'BEE'):
+      URL = 'http://www.script-o-rama.com/movie_scripts/a1/bee-movie-script-transcript-seinfeld.html'
+      page = requests.post(URL)
+      s = str(page.text)
+
+      result = re.compile('<pre>(.*?)</pre>', re.DOTALL).search(s)
+
+      print(result.group(1))
+      if res.error: return res
+
     elif tok.matches(TT_KEYWORD, 'WHILE'):
       while_expr = res.register(self.while_expr())
       if res.error: return res
@@ -827,7 +847,7 @@ class Parser:
 
     return res.failure(InvalidSyntaxError(
       tok.pos_start, tok.pos_end,
-      "Expected int, float, identifier, '+', '-', '(', '[', IF', 'FOR', 'WHILE', 'FUN'"
+      "Expected int, float, identifier, '+', '-', '(', '[', IF', 'FOR', 'WHILE', 'FUN', 'RICK', or BEE"
     ))
 
   def list_expr(self):
@@ -852,7 +872,7 @@ class Parser:
       if res.error:
         return res.failure(InvalidSyntaxError(
           self.current_tok.pos_start, self.current_tok.pos_end,
-          "Expected ']', 'VAR', 'IF', 'FOR', 'WHILE', 'FUN', int, float, identifier, '+', '-', '(', '[' or 'NOT'"
+          "Expected ']', 'VAR', 'IF', 'FOR', 'WHILE', 'FUN', int, float, identifier, '+', '-', '(', '[', 'NOT', 'RICK' "
         ))
 
       while self.current_tok.type == TT_COMMA:
