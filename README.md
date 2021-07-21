@@ -57,7 +57,7 @@ result  hello world
 you can multiply strings ie **hi *** 3 
 result hi hi hi 
 
-by typing in  **VAR** then a letter or word  then **=** and a charcter you can create a variable that can be used later 
+by typing in**VAR** then a letter or word  then **=** and a charcter you can create a variable that can be used later 
 
 - **AND**  allows for and operations to be done
 
@@ -108,7 +108,10 @@ ALWAYS BE SURE TO CALL A VARIABLE AFTER A LOOP SO YOU CAN SEE THE RESULT
  **RUN()** lets you run a file name 
  
  **LEN()** returns the length of a list
- __________________________________________________________________________________________________________________________________________________________________
+ 
+if you are have **brave** browser type in **RICK** for the first easter egg function 
+ 
+type in **BEE** for the second easter egg function __________________________________________________________________________________________________________________________________________________________________
  to use muti line statements end one line with **;** 
 to run a file you have to make the file first the run python3 shell.py  when it returns "basic<" type in **RUN** (**file name**)
  
